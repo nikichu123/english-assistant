@@ -39,7 +39,7 @@ with col2:
         except:
             default_text = "檔案讀取失敗，請確保是 UTF-8 編碼的 .txt 檔案。"
     else:
-        default_text = "同學仔需先知道 DSE 中文卷一嘅考試模式同計分關鍵。或者是用普通話來朗讀這段文字。"
+        default_text = ""
         
     # 文字編輯區
     student_text = st.text_area("內容框 (可直接在此修改文字)", value=default_text, height=140)
